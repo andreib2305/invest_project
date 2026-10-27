@@ -1,6 +1,27 @@
+# Оценка инвестиционных проектов
+
 ## Запуск
 
-pip install -r requirements.txt  
-python main.py --all        # выполнение всех задач подряд
-python main.py              # консольное меню  
-streamlit run dashboard.py  # дашборд (после main.py --all) 
+Установка зависимостей:
+
+```bash
+pip install -r requirements.txt
+```
+
+Выполнение всех шагов подряд:
+
+```bash
+python main.py --all
+```
+
+Консольное меню:
+
+```bash
+python main.py
+```
+
+Дашборд (после `main.py --all`):
+
+```bash
+streamlit run dashboard.py
+```
