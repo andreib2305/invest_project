@@ -1,0 +1,28 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Сгенерированные файлы проекта (создаются через main.py --all)
+data/
+results/
+models/
+*.joblib
+STRUCTURE.md
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Система
+.DS_Store
+Thumbs.db
